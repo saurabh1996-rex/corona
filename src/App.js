@@ -27,8 +27,8 @@ class App extends React.Component{
             <div className={styles.container}>
                 <img className={styles.image} src={coronaImage} alt="COVID-19" />
                 <Cards data={data} />
-                <Charts data={data} country ={country}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
+                <Charts data={data} country ={country}/>
             </div>
         )
     }
